@@ -85,4 +85,52 @@ body {
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 1s;
+}
+.projects div button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 1s;
+}
+
+/* Tablet style */
+@media only screen and (min-width: 768px) {
+    .wrapper .intro .pfp {
+        width: 370px;
+        height: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+    .wrapper .intro a img {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .wrapper .intro h2 {
+        font-size: 34px;
+    }
+    .wrapper .intro h3 {
+        font-size: 20px;
+    }
+    .projects h3 {
+        font-size: 45px;
+    }
+    .projects div {
+        width: 60%;
+    }
+    .projects div h2 {
+        font-size: 30px;
+    }
+    .projects div p {
+        font-size: 20px;
+    }
+    .projects div button {
+        right: 42%;
+        padding: 10px 20px;
+    }
+}
+
+/* Computer style */
+@media only screen and (min-width: 1000px) {
+    .projects div {
+        width: 40%;
+    }
 }
