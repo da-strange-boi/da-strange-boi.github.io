@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #87ceeb;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body h3 {
+    padding: 20px;
+}
+
+.formulas {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.formulas section {
+    border: 3px solid #101010;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.formulas section .title {
+    font-size: 25px;
+}
+
+.formulas section hr {
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.formulas section input[type=number] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.formulas section input[type=button] {
+    float: right;
+    border-radius: 10px;
+    padding: 2px;
+    border: #101010 solid 2px;
+    cursor: pointer;
+}
+
+.formulas .result {
+    display: none;
+}
