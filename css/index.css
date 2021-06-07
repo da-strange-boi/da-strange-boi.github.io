@@ -4,16 +4,19 @@
 }
 
 body {
-    background-color: #f5a9b8;
+    background-image: linear-gradient(#f5a9b8, #55cdfc);
+    height: 100vh;
 }
 
 .wrapper {
     width: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Hachi Maru Pop', cursive;
     text-align: center;
 }
-.intro {
-    background-color: #55cdfc;
+
+.socialMedia {
+    width: 32px;
+    height: 32px;
 }
 
 .wrapper .intro .pfp img {
@@ -36,63 +39,6 @@ body {
     border: transparent;
 }
 
-.projects {
-    padding-bottom: 100px;
-}
-
-.projects h3 {
-    margin: 20px 0;
-    font-size: 30px;
-}
-
-.projects div {
-    border: 2px solid aqua;
-    border-radius: 15px;
-    position: relative;
-    width: 80%;
-    height: 200px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-}
-
-.projects div img {
-    width: 100%;
-    height: 100%;
-    border-radius: 14px;
-    filter: brightness(35%);
-}
-
-.projects div h2 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.projects div p {
-    position: absolute;
-    top: 35%;
-    color: white;
-    margin: 0 15px;
-}
-
-.projects div button {
-    position: absolute;
-    top: 70%;
-    right: 40%;
-    background: transparent;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 1s;
-}
-.projects div button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    transition: background-color 1s;
-}
-
 /* Tablet style */
 @media only screen and (min-width: 768px) {
     .wrapper .intro .pfp {
@@ -110,28 +56,5 @@ body {
     }
     .wrapper .intro h3 {
         font-size: 20px;
-    }
-    .projects h3 {
-        font-size: 45px;
-    }
-    .projects div {
-        width: 60%;
-    }
-    .projects div h2 {
-        font-size: 30px;
-    }
-    .projects div p {
-        font-size: 20px;
-    }
-    .projects div button {
-        right: 42%;
-        padding: 10px 20px;
-    }
-}
-
-/* Computer style */
-@media only screen and (min-width: 1000px) {
-    .projects div {
-        width: 40%;
     }
 }
